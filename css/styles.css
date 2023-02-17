@@ -58,7 +58,8 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-brand);
-  margin-top: 100px;
+  margin-bottom: 16px;
+  display: block;
 }
 
 .logo-black span {
@@ -190,7 +191,7 @@ a {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-top: 96px;
+  margin-bottom: 72px;
 }
 
 .head-button:hover {
@@ -238,11 +239,11 @@ a {
 .our-team {
   background-color: #f4f4fd;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .team {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .footer-text {
@@ -328,21 +329,12 @@ a {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 24px;
-
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 120px;
 }
 
 .gallary-photo {
-  width: 360px;
-  height: 120px;
-
-  background-color: #ffffff;
-  text-align: left;
   padding-top: 32px;
+  padding-bottom: 32px;
   padding-left: 16px;
 
   border-left: 1px solid #e7e9fc;
@@ -351,7 +343,6 @@ a {
 }
 
 .gallary-cards {
-  margin-top: 48px;
 }
 
 .header {
@@ -366,9 +357,7 @@ a {
   padding: 0 15px;
 }
 
-.button-menu {
-  /* padding-top: 96px;
-  padding-bottom: 120px; */
-
-  /* margin-top: 96px; */
+.portfolio-menu {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
