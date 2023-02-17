@@ -231,8 +231,6 @@ a {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /* TEAM */
@@ -329,10 +327,10 @@ a {
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 
-.gallary-photo {
+.gallery-photo {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
@@ -342,7 +340,8 @@ a {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.gallary-cards {
+.gallery li {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .header {
